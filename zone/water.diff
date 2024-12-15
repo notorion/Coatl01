@@ -1,7 +1,9 @@
-diff --git a/dist/game/data/zones/water.xml b/dist/game/data/zones/water.xml
-index 55b4535c45..83c1ebeaee 100644
---- a/dist/game/data/zones/water.xml
-+++ b/dist/game/data/zones/water.xml
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/zones/water.xml dist/game/data/zones/water.xml
+index 55b4535..3f9f3ef 100644
+--- dist/game/data/zones/water.xml
++++ dist/game/data/zones/water.xml
 @@ -477,10 +477,10 @@
  		<node X="-41888" Y="206688" />
  		<node X="-41248" Y="208160" />
@@ -17,18 +19,3 @@ index 55b4535c45..83c1ebeaee 100644
  	<zone name="18_24_water3" type="WaterZone" shape="Cuboid" minZ="-4780" maxZ="-3780">
  		<node X="-53536" Y="220976" />
  		<node X="-32768" Y="229376" />
-@@ -766,10 +766,10 @@
- 		<node X="32768" Y="-32767" />
- 		<node X="65536" Y="0" />
- 	</zone>
--	<zone name="21_18_water1" type="WaterZone" shape="Cuboid" minZ="-4780" maxZ="-3780">
--		<node X="32768" Y="0" />
--		<node X="65536" Y="10000" />
--	</zone>
-+	<!-- <zone name="21_18_water1" type="WaterZone" shape="Cuboid" minZ="-4780" maxZ="-3780"> -->
-+		<!-- <node X="32768" Y="0" /> -->
-+		<!-- <node X="65536" Y="10000" /> -->
-+	<!-- </zone> -->
- 	<zone name="21_19_water1" type="WaterZone" shape="Cuboid" minZ="-4780" maxZ="-3780">
- 		<node X="32768" Y="32767" />
- 		<node X="60672" Y="65535" />
