@@ -1,0 +1,56 @@
+Hello.
+
+During my explorations, I noticed that the Lizardman Barracks and Lizardman Temple zones, as well as the lair of the feared Coatl, could offer a more challenging experience. Therefore, I dedicated myself to implementing a series of improvements that will transform your journey in these locations. Based on the Core and Chronos servers.
+
+The points:
+
+- Both the Temple and Barracks locations, monster spawns that were missing have been added.
+- Active skills have been added for all monsters in both locations, each with its own skill. Each one has been verified on the official server, Core and Chronos.
+- Passive skills have been 'activated*'
+- Monster defense has been reduced to level 126 and 128, the default setting not even GM could kill. Elemental defense and elemental attack have been added.
+- XP Bonus Party, a passive skill for monsters in both locations has also been activated, each monster adds 25% (unofficial) XP for each monster. Players outside the party do not obtain the bonus XP. Range of 1500 to acquire the XP.
+[img]https://github.com/notorion/Coatl01/blob/main/%7BC82CDE13-4F52-4E0A-BAF6-169204FB7D6C%7D.png?raw=true[/img]
+For this to work, I created two scripts, one for Lizardman Barracks and another for Lizardman Temple.
+Bonus is calculated based on the player's level and some parameters defined in the script.
+The script obtains the base experience that the monster grants. This information is already available in the game and varies according to the monster and the player's level, for the distribution of XP in the party.
+If player 1 is in a party killing in Barracks, and player 2 of the same party is killing monsters in Lizardman Temple, there will be no conflicts.
+The additional XP is acquired 1 second later, no matter how many monsters are killed. The bonus will be delivered no matter how intense the farm is.
+Coatls Lair, Location of the raidboss Coatl as it is called in Core, and Couatl as it is called in the American version.
+[img]https://github.com/notorion/Coatl01/blob/main/%7BB3976B5C-E9C7-4661-B4C7-93F2F2952824%7D.png?raw=true[/img]
+All of Coatl's mechanics have been added.
+- Time of appearance, on Mondays at 9 pm.
+- There is no risk of duplication if it has not been defeated during the week.
+- Boss reappears after server restart if it has not been defeated.
+- The difficulty will depend on the strength of the players and parties.
+- HP range is officially high, in my edition it is a little less.
+- Boss has a reset if it leaves the 'arena'.
+- I left options in the script about the player leaving during the battle and attacking outside the arena, these acts teleport the player to Gludio. It is not activated. There will be no problem with this.
+
+Mechanics
+Totems are activated together with Coatl at certain HP points, so that the player does not get killed, run close to the Totem.
+[img]https://github.com/notorion/Coatl01/blob/main/%7BEF50C9B0-10FE-44D9-B17E-1B87957811BF%7D.png?raw=true[/img]
+If the ground turns red, run to the Flame Totem, it will give you a buff that will protect you from Coatl's fury. This applies to other colors that appear on the ground.
+
+During the death cast in which Coatl turns blue, the boss does not receive damage.
+[img]https://github.com/notorion/Coatl01/blob/main/%7B1C3CBE27-CE31-45D5-9891-06A545F88548%7D.png?raw=true[/img]
+The dreaded Barrier.
+
+Coat does not respawn with Barrier, but whoever makes the first attack, it is activated instantly.
+
+A timer is started, and within 10 minutes players will have to make 2000 attacks to destroy the barrier.
+
+Broken barrier, it is not easy.
+
+After the barrier is broken, the boss is vulnerable for only 20 seconds, officially it is less. If during these 20 seconds players do not reach 500 attacks, the 10-minute barrier with 2000 Hits is reactivated. Officially, I saw players spending more time trying to break the barrier, and less time with the boss vulnerable.
+
+Well, that's it, I hope you have fun.
+
+Compatible with Path of Rogue, Shinemaker.
+
+[b]Download Diff:[/b]
+
+[url=https://github.com/notorion/Coatl01/blob/main/Coatl_Lizardman_Temple_Barrack.patch]https://github.com/notorion/Coatl01/blob/main/Coatl_Lizardman_Temple_Barrack.patch[/url]
+
+[s]The Coatl mechanics were created with observations on the American server. On the European server, no one appeared during the months of verification.[/s]
+[img]https://github.com/notorion/Coatl01/blob/main/%7B34E01460-0089-4AF9-B7BD-FB33906E0E2B%7D.png?raw=true[/img]
+[img]https://github.com/notorion/Coatl01/blob/main/%7B010BDA98-9037-4F55-A719-DA46EACF1BE3%7D.png?raw=true[/img]
